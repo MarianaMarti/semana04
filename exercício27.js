@@ -1,7 +1,6 @@
 const inverter = objeto => {
-    letb
-    for(let i = 0; i < Object.keys(objeto).lenght;i++ ){
-        objeto2 = {
-            Object
-    }
+    const novoObjeto = Object.entries(objeto).map(
+        array => [array[1],array[0]]
+    )
+    return Object.fromEntries(novoObjeto)
 }
