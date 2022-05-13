@@ -1,6 +1,1 @@
-// const buscarPalavraSemelhante = (palavra, array) =>{
-
-// }
-
-teste = 'Maria'
-console.log((teste-'Mar').join(''))
+const filtrarArray = (string, array) => array.filter( word => word.includes(string))
